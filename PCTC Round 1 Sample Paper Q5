@@ -1,0 +1,12 @@
+num1 = int(input())
+operation = input()
+num2 = int(input())
+
+if operation == "+":
+    result = num1 + num2
+elif operation == "*":
+    result = num1 * num2
+else:
+    print("Invalid operation")
+
+print(result)
