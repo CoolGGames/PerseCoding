@@ -1,0 +1,12 @@
+#Question 6
+lemon = int(input("Insert number of lemons: "))
+sugar = int(input("Insert weight of sugar: "))
+
+if lemon >= 20 and sugar >= 3:
+  print("A")
+elif lemon < 20 and sugar >= 3:
+  print("B")
+elif lemon >= 20 and sugar < 3:
+  print("C")
+else:
+  print("D")
