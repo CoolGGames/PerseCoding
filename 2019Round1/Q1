@@ -1,0 +1,5 @@
+#Question 1
+a = input("Please input your current name: ")
+b = input("Please input your new name: ")
+
+print("Hello " + a + ", your name is now " + b + ".")
