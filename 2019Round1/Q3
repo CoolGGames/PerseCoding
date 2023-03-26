@@ -1,0 +1,10 @@
+#Question 3
+slice1 = int(input())
+slice2 = int(input())
+
+if slice1 < slice2:
+  print("SLICE 2")
+elif slice1 > slice2:
+  print("SLICE 1")
+else:
+  print("SAME")
