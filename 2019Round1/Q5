@@ -1,0 +1,7 @@
+#Question 5
+hole = input()
+for i in range(len(hole)):
+   if hole[i] == 'F':
+     print(i + 1)
+     
+#Used ChatGPT for line 3
