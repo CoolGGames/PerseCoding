@@ -1,0 +1,9 @@
+#Question 2
+a = int(input())
+b = int(input())
+c = int(input())
+
+d = a + b + c
+
+e = 180 - d
+print(e)
