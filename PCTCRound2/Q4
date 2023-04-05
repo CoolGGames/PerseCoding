@@ -1,0 +1,5 @@
+#Question 4
+x = input()
+n = int(input())
+y = x[-1::-1]
+print(n * y)
