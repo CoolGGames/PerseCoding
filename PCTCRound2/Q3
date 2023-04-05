@@ -1,0 +1,9 @@
+#Question 3
+n = int(input())
+m = 2
+while True:
+  m *= 2
+  if m > n:
+    break
+
+print(m)
