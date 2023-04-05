@@ -1,0 +1,5 @@
+#Question 8
+n = int(input())
+print("\./")
+for i in range(n):
+  print(".|.")
