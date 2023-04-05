@@ -1,0 +1,17 @@
+#Question 4
+n = int(input())
+
+yes_votes = 0
+no_votes = 0
+
+for i in range(n):
+    vote = input().strip()
+    if vote == "YES":
+        yes_votes += 1
+    elif vote == "NO":
+        no_votes += 1
+
+print("YES", yes_votes)
+print("NO", no_votes)
+
+#Used ChatGPT
