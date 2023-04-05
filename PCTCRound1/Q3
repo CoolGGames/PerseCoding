@@ -1,0 +1,10 @@
+#Question 3
+word = input()
+length = 0
+while True:
+  length += len(word)
+  if length > 30:
+    break
+
+n = int(length) // len(word)
+print(int(n) * word)
