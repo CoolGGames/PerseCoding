@@ -1,0 +1,10 @@
+#Question 9
+char = input()
+if char == '+':
+  print("+&><+&><")
+elif char == '&':
+  print("&><+&><+")
+elif char == '>':
+  print("><+&><+&")
+else:
+  print("<+&><+&>")
